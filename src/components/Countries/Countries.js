@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Country from '../country/Country';
 
 const Countries = () => {
     const [countries, setCountries] = useState([]);
@@ -11,6 +12,9 @@ const Countries = () => {
         <div>
             <h1>Display all rest countries data by api.</h1>
             <h3>Available countries data here: {countries.length}</h3>
+            {
+                countries.map(country => <Country name={country.name.common}></Country>)
+            }
         </div>
     );
 };
