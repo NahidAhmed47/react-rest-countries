@@ -1,0 +1,13 @@
+.mobile-div{
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn-battery{
+    padding: 5px;
+    background-color: brown;
+    border: 0;
+    color: white;
+    border-radius: 2px;
+}
