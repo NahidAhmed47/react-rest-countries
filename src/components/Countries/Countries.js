@@ -12,7 +12,7 @@ const Countries = () => {
     return (
         <div>
             <h1>Display all rest countries data by api.</h1>
-            <h3>Available countries data here: {countries.length}</h3>
+            <h3>Available countries data here: {countries.length} </h3>
             <div className='countries-parent-div'>
                 {
                     countries.map(country => <Country key={country.cca3} country={country}></Country>)
