@@ -1,0 +1,9 @@
+.single-country-div{
+    background-color: antiquewhite;
+   padding-top: 20px;
+   border-radius: 5px;
+}
+.single-country-div img{
+    width: 80%;
+    height: 150px;
+}
