@@ -15,7 +15,7 @@ const Countries = () => {
             <h3>Available countries data here: {countries.length} </h3>
             <div className='countries-parent-div'>
                 {
-                    countries.map(country => <Country key={country.cca3} country={country}></Country>)
+                    countries.map(country => <Country key={country.cca3} country={country}></Country> )
                 }
             </div>
         </div>
